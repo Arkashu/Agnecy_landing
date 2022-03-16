@@ -1,0 +1,103 @@
+@media (max-width: $xxl) {
+  .our-team-wrapper{
+    .team-contacts{
+      .social-networks{
+        .network-images-wrapper{
+          div{
+            img{
+              max-width: 70%;
+              max-height: 57%;
+            }
+          }
+        }
+    }
+    }
+  }
+}@media (max-width: $lg) {
+  .our-team {
+    .container {
+      .our-team-wrapper {
+        .team-contacts {
+          }
+          .social-networks {
+            .network-images-wrapper {
+              div {
+                img {
+                  max-width: 60%;
+                  max-height: 35%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+@media (max-width: $md) {
+  .our-team {
+    .container {
+      .our-team-wrapper {
+        height: 300px;
+        .head-our-team {
+          padding-bottom: 20px;
+          h2 {
+            padding-bottom: 20px;
+          }
+        }
+          .team-contacts {
+            .photo-mark{
+              height: auto;
+            }
+            .social-networks {
+              .network-images-wrapper {
+                div {
+                  img {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }@media (max-width: $sm) {
+  .our-team {
+    .container {
+      .our-team-wrapper {
+        height: 500px;
+        .head-our-team {
+          padding-bottom: 20px;
+          h2 {
+            padding-bottom: 20px;
+          }
+        }
+          .team-contacts {
+            flex-wrap: wrap;
+            .photo-mark{
+              width: 38%;
+            }
+            .social-networks {
+              h3{
+                padding-bottom: 10px;
+              }
+              p{
+                padding-bottom: 10px;
+              }
+              .networks{
+                padding-bottom: 5px;
+              }
+              .network-images-wrapper {
+                height: 0;
+                div {
+                  img {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

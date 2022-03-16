@@ -1,0 +1,53 @@
+.activity{
+  margin-bottom: 100px;
+.activity-wrapper{
+  display: flex;
+  padding-bottom: 110px;
+  color: $font-color-main;
+  border-bottom: 2px solid $font-color-main;
+  .Learn-more{
+    padding-right: 100px;
+    width: 50%;
+    h2{
+      @extend %h2-format;
+      padding-bottom: 60px;
+    }
+    p {
+      padding-bottom: 60px;
+     @extend %p-format;
+    }
+    .Learn{
+      @include button(white, $header-hover);
+      transition: .3s;
+    }
+    .Learn:hover{
+      @include button($header-hover, white)
+    }
+  }
+  .activity-items {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+
+    div {
+      width: 50%;
+
+      img {
+        padding-bottom: 30px;
+      }
+
+      h3 {
+        font-size: 18px;
+        padding-bottom: 18px;
+        font-weight: bold;
+      }
+
+      p {
+        padding: 0 45px 50px 0;
+        font-size: 14px;
+        line-height: 23px;
+      }
+    }
+  }
+  }
+}

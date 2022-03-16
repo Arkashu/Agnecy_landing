@@ -1,0 +1,19 @@
+@media (max-width: $xxl) {
+  .container{
+    width: 992px;
+  }
+}
+@media (max-width: $lg) {
+  .container{
+    width: 768px;
+  }
+}
+@media (max-width: $md) {
+  .container{
+    width: 576px;
+  }
+}@media (max-width: $sm) {
+  .container{
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+@media (max-width: $md) {
+  footer{
+    height: 50px;
+    padding: 7px 0;
+    align-items: center;
+    .container{
+      .footer-wrapper{
+
+      }
+    }
+  }
+}@media (max-width: $sm) {
+  footer{
+    height: 50px;
+    padding: 7px 0;
+    align-items: center;
+    .container{
+      .footer-wrapper{
+        .footer-networks{
+          img{
+            width: 70%;
+          }
+        }
+        div{
+          p{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

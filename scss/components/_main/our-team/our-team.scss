@@ -1,0 +1,95 @@
+.our-team {
+  color: $font-color-main;
+  padding-bottom: 110px;
+
+  .container {
+    .our-team-wrapper {
+      .head-our-team {
+        padding-bottom: 65px;
+        h2 {
+          @extend %h2-format;
+          padding-bottom: 45px;
+        }
+
+        p {
+          @extend %p-format;
+          max-width: 450px;
+          padding-bottom: 35px;
+        }
+
+        .red-line {
+          @extend %red-line;
+        }
+      }
+      .team-contacts{
+        display: flex;
+        .photo-mark{
+          width: 25%;
+          height: 450px;
+          padding-right: 70px;
+          img{
+            width: 95%;
+          }
+        }
+        .social-networks{
+          padding-top: 15px;
+          width: 75%;
+          h3{
+            font-size: 25px;
+            font-weight: bold;
+            padding-bottom: 35px;
+          }
+          p{
+            @extend %p-format;
+            max-width: 630px;
+            padding-bottom: 50px;
+          }
+          .networks{
+            display: flex;
+            padding-bottom: 65px;
+            li:not(:last-child){
+              padding-right: 30px;
+            }
+            a{
+              text-decoration: none;
+              color: $font-color-main;
+              font-style: italic;
+            }
+          }
+          .network-images-wrapper{
+            display: flex;
+            div{
+              width: 25%;
+              height: 200px;
+
+              position: relative;
+              img{
+                height: 100%;
+                width: 100%;
+              }
+              div{
+                color: white;
+                align-items: center;
+                height: 30px;
+                width: 100%;
+                position: absolute;
+                transform: translateY(-100%);
+                background: $font-color-main;
+                opacity: 95%;
+                text-align: center;
+                text-transform: $text-upper;
+                display: none;
+              }
+            }
+            div:not(:last-child){
+              margin-right: 20px;
+            }
+            div:hover div{
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.video {
+  background: $banner-color;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  .video-wrapper{
+    display: flex;
+  }
+  .left-part {
+    width: 50%;
+    h1 {
+      font-size: 45px;
+      line-height: 52px;
+      font-weight: 800;
+      text-transform: $text-upper;
+      margin-bottom:30px;
+    }
+    p{
+      color: $font-color-main;
+      font-size: 14px;
+      line-height: 23px;
+      padding-right: 180px;
+      margin-bottom: 55px;
+    }
+    .Contact-us{
+      @include button($header-hover, white);
+      transition: .3s;
+    }
+    .Contact-us:hover{
+      @include button(white, $header-hover)
+    }
+  }
+  .right-part{
+    text-align: end;
+    width: 50%;
+    iframe{
+      width: 100%;
+      height: 360px;
+      box-shadow: 0px -20px 80px 1px #585858;
+    }
+  }
+}

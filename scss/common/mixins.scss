@@ -1,0 +1,5 @@
+@mixin button($bg_color, $text-color){
+  background: $bg_color;
+  color: $text-color;
+  @extend %button
+}

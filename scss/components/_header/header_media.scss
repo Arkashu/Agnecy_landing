@@ -1,0 +1,29 @@
+@media (max-width: $md) {
+  header{
+    .container{
+      .header-wrapper{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+@media (max-width: $sm) {
+  header{
+    .container{
+      .header-wrapper{
+        height: 50px;
+        margin-bottom: 0;
+        nav{
+          ul{
+            li{
+              text-transform: none;
+              a{
+                padding: 8px 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

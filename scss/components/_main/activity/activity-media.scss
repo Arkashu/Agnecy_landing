@@ -1,0 +1,74 @@
+@media (max-width: $lg) {
+  .activity-wrapper{
+    .activity-items{
+      div{
+      }
+    }
+  }
+}@media (max-width: $md) {
+  .activity {
+    margin-bottom: 20px;
+    .container {
+      .activity-wrapper {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        .Learn-more {
+          min-width: 100%;
+          padding-right: 0;
+          h2 {
+            padding-bottom: 20px;
+          }
+          p{
+            padding-bottom: 20px;
+          }
+          button{
+            margin-bottom: 15px;
+          }
+        }
+        .activity-items {
+          min-width: 100%;
+          div {
+            text-align: center;
+            p{
+              padding: 0 25px 20px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}@media (max-width: $sm) {
+  .activity {
+    margin-bottom: 20px;
+    .container {
+      .activity-wrapper {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        text-align: center;
+        .Learn-more {
+          min-width: 100%;
+          padding-right: 0;
+          h2 {
+            padding-bottom: 20px;
+          }
+          p{
+            padding-bottom: 20px;
+          }
+          button{
+            margin-bottom: 15px;
+          }
+        }
+        .activity-items {
+          min-width: 100%;
+          div {
+            width: 100%;
+            text-align: center;
+            p{
+              padding: 0 8px 20px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

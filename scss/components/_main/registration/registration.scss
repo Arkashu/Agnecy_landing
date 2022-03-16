@@ -1,0 +1,99 @@
+.registration{
+  color: $font-color-main;
+  padding-bottom: 100px;
+  .container{
+    .registration-wrapper{
+      width: 100%;
+      .head-registration{
+        padding-bottom: 65px;
+        h2 {
+          @extend %h2-format;
+          padding-bottom: 45px;
+        }
+
+        p {
+          @extend %p-format;
+          max-width: 450px;
+          padding-bottom: 35px;
+        }
+
+        .red-line {
+          @extend %red-line;
+        }
+      }
+      .registration-form{
+        position: relative;
+        display: flex;
+        .registration-input{
+          width: 65%;
+          display: flex;
+          flex-wrap: wrap;
+          padding-right: 105px;
+          .name{
+            border-radius: 5px;
+            border-color: transparent;
+            padding: 30px 102px 20px 50px;
+            background: $input-bg;
+            margin-right:50px;
+            margin-bottom: 40px;
+            color: $font-color-main;
+          }
+          .mail{
+            border-radius: 5px;
+            border-color: transparent;
+            background: $input-bg;
+            color: $font-color-main;
+            padding: 30px 102px 20px 50px;
+          }
+          .type-message{
+            margin-top: 50px;
+            border-radius: 5px;
+            border-color: transparent;
+            background: $input-bg;
+            color: $font-color-main;
+            height: 250px;
+            width: 100%;
+          }
+          button{
+            width: 100%;
+            margin-top: 50px;
+            transition: .3s;
+            border-radius: 5px;
+            color: white;
+            background: $header-hover;
+            border: 2px solid $header-hover;
+            font-weight: bold;
+            text-transform: $text-upper;
+            padding: 30px 0;
+          }
+          button:hover{
+            color: $header-hover;
+            background: white;
+          }
+        }
+        .contacts{
+          color: white;
+          background: $header-bg;
+          width: 35%;
+          padding: 150px 40px 150px 35px;
+          h3{
+            font-size: 15px;
+            text-transform: $text-upper;
+            font-weight: bold;
+            padding-bottom: 40px;
+          }
+          p{
+            padding-bottom: 40px;
+          }
+        }
+        .test{
+          position: absolute;
+          background: $header-bg;
+          width: 134px;
+          height: 100%;
+          left: 100%;
+        }
+      }
+    }
+  }
+}

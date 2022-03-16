@@ -1,0 +1,26 @@
+%flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+%button{
+  padding: 15px 60px;
+  border-radius: 9px;
+  border: 2px solid $header-hover;
+  font-weight: bold;
+}
+%h2-format{
+  font-weight: bold;
+  text-transform: $text-upper;
+  font-size: 30px;
+}
+%p-format{
+  font-size: 14px;
+  line-height: 23px;
+}
+%red-line{
+  background: $header-hover;
+  width: 130px;
+  height: 2px;
+}
