@@ -944,7 +944,7 @@ header .header-wrapper nav ul li a {
 }
 .subscribe {
   height: 500px;
-  background: url("../../../../images/banner.png");
+  background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 100px;
